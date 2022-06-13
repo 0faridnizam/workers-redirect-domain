@@ -5,8 +5,8 @@
   "description": "A redirect domain with Cloudflare Workers",
   "main": "index.js",
   "scripts": {
-    "dev": "wrangler dev src/index.js",
-    "deploy": "wrangler publish --env deploy src/index.js",
+    "dev": "wrangler dev --env dev src/index.js",
+    "deploy": "wrangler publish src/index.js",
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
   "author": "Farid Nizam <faridsaja12@gmail.com>",
