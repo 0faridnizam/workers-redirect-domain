@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "workers-redirect-domain",
+  "version": "1.0.0",
+  "description": "A redirect domain with Cloudflare Workers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev src/index.js",
+    "deploy": "wrangler publish --env deploy src/index.js",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Farid Nizam <faridsaja12@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

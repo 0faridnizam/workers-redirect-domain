@@ -1,0 +1,10 @@
+name = "workers-redirect-domain"
+account_id = ""
+workers_dev = true
+
+[env.deploy]
+name = "redirect-domain"
+account_id = ""
+
+
+compatibility_date = "2022-06-13"
