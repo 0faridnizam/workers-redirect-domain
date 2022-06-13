@@ -1,7 +1,5 @@
 name = "redirect-domain"
 account_id = ""
 workers_dev = true
-type = "webpack"
-entry-point = './src/index.js'
 
 compatibility_date = "2022-06-13"
