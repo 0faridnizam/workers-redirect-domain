@@ -1,4 +1,9 @@
-name = "redirect-domain"
+name = "workers-redirect-domain"
+main = "src/index.js"
 workers_dev = true
 
 compatibility_date = "2022-06-13"
+
+[env.production]
+name = "redirect-domain"
+minify = true
