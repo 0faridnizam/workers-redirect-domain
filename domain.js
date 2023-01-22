@@ -7,4 +7,5 @@ export default {
   'yuiistic.my.id': 'farid.cyou',
   'onolune.my.id': 'farid.cyou',
   'www.fwb.my.id': 'fwb.my.id',
+  'www.nanyaterus.com': 'nanyaterus.com',
 };
